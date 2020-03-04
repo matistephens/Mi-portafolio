@@ -1,18 +1,18 @@
-nav p {
+nav p, footer p {
   font-family: 'Roboto;', sans-serif;
   font-size: 2em;
   font-weight: 700;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   color: white;
 }
 
 .menu ul li a {
   font-family: 'Open Sans', sans-serif;
   margin-right: 40px;
-  padding: 0px;
+  margin-bottom: 5px;
 }
 
- .hero h2 {
+ .hero h2, h5 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.4375em;
   font-weight: 100;
@@ -37,7 +37,7 @@ nav p {
   margin-bottom: 20px;
 }
 
-h1, h2 {
+h1, h2, h5 {
   letter-spacing: 3px;
 }
 
@@ -57,4 +57,32 @@ h2 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+
+.card-link {
+  color: #3b3b3b;
+  text-decoration: underline;
+  padding-right: 15px;
+}
+
+.fondo {
+  background-color: #69468D;
+}
+
+hr {
+  display: block;
+  border-width: 1pt;
+  border-color: #FFFFFF;
+}
+
+i, a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+i:hover
+{
+     color:#69468D;
+     text-decoration:none;
+     cursor:pointer;
 }

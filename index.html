@@ -26,7 +26,7 @@
   <!--- Navigation Bar --->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-0">
     <div class="container">
-      <a class="navbar-brand" href="#"><p class="marca">ms</p></a>
+      <a class="navbar-brand" href="#hero"><p class="marca">ms</p></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,10 +41,10 @@
             <a class="nav-link text-white" href="#skills">skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#hobby">hobby</a>
+            <a class="nav-link text-white" href="#hobbies">hobbies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#contact">contacto</a>
+            <a class="nav-link text-white" href="#contact">contact</a>
           </li>
         </ul>
       </div>
@@ -52,8 +52,8 @@
   </nav>
 
   <!--- Hero section --->
-  <header class="hero">
-    <div class="container d-flex text-white">
+  <header id="hero" class="hero">
+    <div class="container d-flex text-white pb-5">
 
       <div class="col-6">
         <div class="mb-n3">
@@ -66,7 +66,7 @@
         <button type="button" class="btn btn-outline-light btn-lg mt-2">about me</button>
       </div>
 
-      <div class="col-6 d-none d-lg-block">
+      <div class="col-6 d-none d-lg-block mb-n5">
         <img src="assets/img/persona.png" alt="persona">
       </div>
 
@@ -77,11 +77,11 @@
   <!--- About me --->
   <section id="about">
     <div class="container text-center my-4 pb-5">
-      <div>
+      <div class="pb-4">
         <h2 class="display-2" style="font-weight:100">about me</h2>
       </div>
 
-      <div class="row text-left mt-5">
+      <div class="row text-left mt-3">
         <div class="col-md-6 pb-3">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut commodi excepturi veniam quo nostrum eius exercitationem, dolor aliquam est officiis cupiditate nesciunt delectus facere id voluptates, unde optio repellat. Aliquam. <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id vestibulum lacus. Etiam ligula tellus, ullamcorper at dictum ac, lobortis in massa. Nam vitae massa sem. Integer non purus dapibus, tincidunt felis non, ornare nisl. Pellentesque pellentesque ut libero eget eleifend. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus a metus vitae tortor porta ultrices porttitor eget dolor.Pellentesque tempus arcu lorem, eu maximus sapien blandit vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec purus arcu, gravida sed ex eget, hendrerit dictum purus. Vivamus dictum elit vitae feugiat ornare. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed imperdiet nunc a magna vulputate consectetur. Maecenas vitae purus velit. Phasellus in lacus nec sapien venenatis tincidunt ut id magna. Aenean nec varius libero. Ut euismod lectus eu metus accumsan, vitae faucibus nibh molestie. Pellentesque pulvinar rutrum tellus nec eleifend.
           <br><br>
@@ -97,7 +97,7 @@
   </section>
 
   <!--- Skills --->
-  <section id="skills" class="container-fluid bg-dark text-white pb-3">
+  <section id="skills" class="container-fluid bg-dark text-white py-3">
     <div class="container text-center pt-4 pb-5">
       <div class="pb-4">
         <h2 class="display-2" style="font-weight:100">skills</h2>
@@ -155,10 +155,73 @@
   </section>
 
   <!--- Hobbies --->
-  <section>
-    
+  <section id="hobbies" class="container mb-5">
+      <div class="text-center my-5 pb-3">
+        <h2 class="display-2" style="font-weight:100">hobbies</h2>
+      </div>
+
+      <div class="row text-center">
+
+        <div class="col-md-4">
+          <div class="card mb-5">
+            <img src="assets/img/pichilemu.jpeg" class="card-img-top" alt="Pichilemu">
+            <div class="card-body">
+              <h5 class="card-title">Fotografía</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-5">
+            <img src="assets/img/viajes.jpg" class="card-img-top" alt="Viajes">
+            <div class="card-body">
+              <h5 class="card-title">Viajar</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-5">
+            <img src="assets/img/skate.jpg" class="card-img-top" alt="Skateboarding">
+            <div class="card-body">
+              <h5 class="card-title">Skateboarding</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
   </section>
 
+  <!--- contacto --->
+  <section id="contact" class="container-fluid fondo text-white text-center pt-2 pb-5">
+    <div class="mt-4">
+      <h2 class="display-2" style="font-weight:100">contact</h2>
+    </div>
+
+    <div class="typeform-widget" data-url="https://matiasstur.typeform.com/to/wFzlut" data-transparency="100" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 250px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+    </script>
+  </section>
+
+  <!--- Footer --->
+  <footer class="bg-dark text-center text-light py-3">
+    <div class="container mb-2">
+      <div class="col-md-12 text-left my-4">
+        <a class="mb-2 mr-4">Sígueme en</a>
+
+        <a href="https://www.instagram.com/matistephensu/"><i class="fab fa-instagram fa-2x mx-1 mt-2 mb-1" data-container="body"></i></a>
+
+        <a href="https://www.facebook.com/matias.stephens.uribe"><i class="fab fa-facebook fa-2x mx-1" data-container="body"></i></a>
+
+        <a href="https://www.linkedin.com/in/matiasstephensuribe/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BzPW%2FUkILQ62GREXpGu89zQ%3D%3D"><i class="fab fa-linkedin fa-2x mx-1" data-container="body"></i></a>
+      </div>
+
+      <hr>
+
+      <a href="#hero"><p class="marca">ms</p></a>
+
+
+      </div>
+  </footer>
 
 
 
@@ -167,13 +230,14 @@
 
 
 
-  <!--jQuery 3.3.1 sin slim-->
+
+  <!--- jQuery 3.3.1 --->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-    <!--Popper JS 1.14.3-->
+    <!--- Popper JS 1.14.3 --->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 
-    <!--Bootstrap JS 4.2.1-->
+    <!--- Bootstrap JS 4.2.1 --->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
     <!--Mi script-->
