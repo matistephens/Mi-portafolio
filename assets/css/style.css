@@ -1,16 +1,46 @@
 nav p {
-  font-family: font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto;', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: white;
 }
 
-a {
+.menu ul li a {
   font-family: 'Open Sans', sans-serif;
-  margin-right: 15px;
+  margin-right: 40px;
+  padding: 0px;
+}
+
+h2 {
+  font-family: font-family: 'Roboto', sans-serif;
+  font-size: 2.4375em;
+  font-weight: 100;
 }
 
 .hero {
   background-image: url('../img/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 10rem;
   padding-top: 100px;
+  margin-top: 50px
+}
+
+.size {
+  font-size: 5.625em;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0px;
+}
+
+.size:nth-child(2) {
+  font-size: 3.95em;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  letter-spacing: 3px;
+}
+
+img {
+  max-width: 100%;
 }

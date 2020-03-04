@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300|Roboto:100,400,700&display=swap" rel="stylesheet">
 
   <!--Font Awesome-->
   <script src="https://kit.fontawesome.com/300b0e9822.js" crossorigin="anonymous"></script>
@@ -24,27 +24,27 @@
 <body>
 
   <!--- Navigation Bar --->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-0">
     <div class="container">
-      <a class="navbar-brand" href="#"><p class="display-4 font-weight-bold">ms</p></a>
+      <a class="navbar-brand" href="#"><p class="marca">ms</p></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse menu pt-1" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link mr-4" href="#about">about</a>
+            <a class="nav-link text-white" href="#about">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mr-4" href="#skills">skills</a>
+            <a class="nav-link text-white" href="#skills">skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mr-4" href="#hobby">hobby</a>
+            <a class="nav-link text-white" href="#hobby">hobby</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mr-4" href="#contact">contacto</a>
+            <a class="nav-link text-white" href="#contact">contacto</a>
           </li>
         </ul>
       </div>
@@ -52,12 +52,24 @@
   </nav>
 
   <header class="hero">
-    <div class="container">
-      <h1 class="display-1 font-weight-bold my-5">Comidas del fin del mundo</h1>
-      <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      a href="#work" class="btn btn-outline-info btn-lg mr-4">Trabajos</a>
-      <a href="#contact" class="btn btn-info btn-lg">Contacto</a>
-    </div>
+    <div class="container d-flex text-white">
+
+      <div class="col-6">
+        <div>
+          <h2>welcome, i'm</h2>
+        </div>
+        <div>
+            <h1 class="size">MATIAS</h1>
+            <h1 class="size">STEPHENS</h1>
+        </div>
+        <button type="button" class="btn btn-outline-light btn-lg mt-2">about me</button>
+      </div>
+
+      <div class="col-6 d-none d-lg-block">
+        <img src="assets/img/persona.png" alt="persona">
+      </div>
+
+      </div>
   </header>
 
   <!--jQuery 3.3.1 sin slim-->
