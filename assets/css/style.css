@@ -46,6 +46,7 @@ img {
 }
 
 h2 {
+  font-size: 85px;
   font-weight: 100;
 }
 
@@ -85,4 +86,41 @@ i:hover
      color:#69468D;
      text-decoration:none;
      cursor:pointer;
+}
+
+@media (max-width: 576px){
+  h5 {
+    font-size: 2.1em;
+  }
+
+  .hero {
+    margin-top: 5px;
+  }
+
+  #hero h2 {
+    font-size: 1.8em;
+    padding-bottom: 0.5em;
+  }
+
+  h2 {
+    font-size: 3em;
+    font-weight: 100;
+  }
+
+  .size {
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+  }
+
+  .size:nth-child(2) {
+    font-size: 2.1em;
+    margin-bottom: 20px;
+  }
+
+  #about {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
 }
