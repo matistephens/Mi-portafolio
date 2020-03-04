@@ -1,0 +1,16 @@
+nav p {
+  font-family: font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 15px;
+}
+
+.hero {
+  background-image: url('../img/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10rem;
+  padding-top: 100px;
+}
